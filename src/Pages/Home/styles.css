@@ -1,0 +1,443 @@
+.landing_image_bg {
+    background-image: url("../../Assets/Images/landingImage.png");
+    background-size: cover;
+    width: 100%;
+    height: 610px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+  }
+  
+  .linear_gradient_container {
+    background: linear-gradient(
+      89.89deg,
+      #000000 -57.76%,
+      rgba(0, 0, 0, 0.680982) 1.75%,
+      rgba(0, 0, 0, 0) 87.03%
+    );
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 50px;
+  }
+  
+  .text_container {
+    width: 40%;
+    color: #ffffff;
+    margin-left: 100px;
+  }
+  
+  .landing_bg_text {
+    font-size: 46px;
+  }
+  
+  .join_btn {
+    display: flex;
+    align-items: center;
+    padding: 12px 16px;
+    gap: 10px;
+    width: 140px;
+    height: 41px;
+    background: #024263;
+    border-radius: 42px;
+    color: white;
+    border: none;
+    outline: none;
+  }
+  
+  .intro_card_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    width: 100%;
+  }
+  
+  .intro_card {
+    width: 80%;
+    height: 80%;
+    background: linear-gradient(to right, #004973, #106a9e, #4da5d1);
+    display: flex;
+    align-items: center;
+    color: white !important;
+    padding: 10px 20px;
+  }
+  
+   .ball {
+    height: 100%;
+    width: 50%;
+    background-image: url("../../Assets/Images/introCard.png");
+    mix-blend-mode: color-burn;
+    opacity: 0.7;
+  }
+  
+  .intro_text {
+    font-size: 32px; 
+    z-index: 99;
+    width: 250%;
+  }
+  
+  .vertical_line {
+    transform: rotate(90deg);
+    border: 1px solid white;
+    width: 90%;
+  }
+  
+  .intro_small_text {
+    font-size: 12px;
+    font-family: monospace;
+    font-weight: 300 !important;
+    width: 200%;
+  }
+  
+  .upcoming_events_container {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    width: 100%;
+  }
+  
+  .upcoming_events_row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    height: 100%;
+    padding: 10px 75px;
+  }
+  
+  .img_container {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSq-wRk5ZG_cwmrI8GTsKWBrksW3FyxKe6SmA&usqp=CAU');
+    border-radius: 50%;
+    background-size: cover;
+    height: 350px;
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+  }
+  
+  .img_container img {
+    height: 400px;
+    width: 100%;
+    margin-top: -50px !important; 
+  }
+  
+  .upcoming_text_container {
+    width: 40%;
+  }
+  
+  .upcoming_head {
+    color: #025273;
+    font-size: 27px;
+    font-weight: 800;
+  }
+  .upcoming_text {
+    color: #024264;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 400 !important;
+    font-size: 16px;
+  }
+  .videos_grid_container {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    width: 100%;
+  }
+  .videos_grid_row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    height: 90%;
+    padding: 10px 25px;
+    height: 80%;
+    width: 80%;
+  }
+  .linear_gradient_container2 {
+    background: #026585;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.6;
+  }
+  .each_video_item1 {
+    height: 300px;
+    width: 33%;
+    background-size:cover;
+    background-image: url('../../Assets/Images/project-01.png');
+  }
+  .each_video_item2 {
+    height: 300px;
+    width: 33%;
+    background-size:cover;
+    background-image: url('../../Assets/Images/project-02.png');
+  }
+  .each_video_item3 {
+    height: 300px;
+    width: 33%;
+    background-size:cover;
+    background-image: url('../../Assets/Images/project-03.png');
+  }
+  .black_line {
+    height: 50px;
+    background-color: black;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 25px;
+  }
+  .black_line img {
+    width: 50px;
+    height: 10px;
+  }
+  .mikasa_img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+  }
+  .mikasa_img img {
+    height: 400px;
+    width: 700px;
+  }
+  .promotions_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 99;
+    margin-bottom: -59px;
+  }
+  .promotions_card {
+    width: 80%;
+    display: flex;
+    height: 100%;
+  }
+  .promotions_card img {
+    width: 40%;
+  }
+  .promotions_text_container {
+    background-color: #0a709c;
+    width: 60%;
+  }
+  .promotions_center_text {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    color: white;
+    padding-left: 50px;
+  }
+  .promotions_text {
+    font-size: 20px;
+  }
+  .last_line {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+  }
+  .register_btn_in_promotions {
+    background-color: white;
+    border: none;
+    outline: none;
+    border-radius: 25px;
+    padding: 10px 18px;
+    color: #025273;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  @media screen and (max-width:1024px) {
+    .promotions_text {
+      font-size: 15px;
+    }
+  }
+  @media screen and (max-width:945px) {
+    .text_container {
+      width: 60%;
+    }
+    .promotions_text {
+      font-size: 13px;
+    }
+    .register_btn_in_promotions {
+      padding: 5px 10px;
+      gap: 5px;
+    }
+    .each_video_item1 {
+      height: 200px;
+    }
+    .each_video_item2{
+      height: 200px;
+    }
+    .each_video_item3{
+      height: 200px;
+    }
+    .videos_grid_container {
+      height: 40vh;
+    }
+    .intro_text {
+       font-size: 20px;
+    }
+    .intro_small_text {
+      font-size: 8px;
+    }
+  }
+  
+  @media screen and (max-width:800px) {
+    .promotions_text {
+      font-size: 10px;
+    }
+    .register_btn_in_promotions {
+      font-size: 8px;
+    }
+    .landing_image_bg {
+      margin-top: 160px;
+    }
+    .landing_bg_text {
+      font-size: 36px;
+    }
+    .intro_text {
+      font-size: 18px;
+    }
+    .intro_small_text {
+      font-size: 7px;
+    }
+    .img_container {
+      height: 200px;
+      width: 200px;
+      width: 30%;
+    }
+    .img_container img {
+      height: 250px;
+      width: 150px;
+    }
+    .upcoming_text_container {
+      width: 60%;
+    }
+    .upcoming_head {
+      font-size: 18px;
+    }
+    .upcoming_text {
+      font-size: 10px;
+    }
+    .upcoming_events_container {
+      height: 50vh;
+    }
+    .each_video_item1 {
+      height: 150px;
+    }
+    .each_video_item2 {
+      height: 150px;
+    }
+    .each_video_item3 {
+      height: 150px;
+    }
+    .linear_gradient_container2 img {
+      height: 50px;
+      width: 50px;
+    }
+    .mikasa_img img {
+      height: 250px;
+      width: 60%;
+    }
+  }
+  
+  @media screen and (max-width:600px) {
+    .promotions_center_text {
+     padding-left: 15px;
+     gap: 0px;
+    }
+    .promotions_container {
+      margin-bottom: 50px;
+    }
+  }
+  
+  @media screen and (max-width:500px) {
+    .landing_bg_text {
+      font-size: 25px;
+    }
+    .text_container .small_text {
+      font-size: 12px;
+    }
+    .vertical_line {
+      width: 120%;
+    }
+    .mikasa_img img {
+      height: 150px;
+    }
+    .register_btn_in_promotions {
+      font-size: 8px;
+      gap: 5px;
+      padding: 5px 5px;
+    }
+    .promotions_text {
+      font-size: 9px;
+      font-family: Arial, Helvetica, sans-serif !important;
+    }
+    .last_line {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 5px;
+    }
+    .text_container {
+      margin-left: 0px;
+      padding-left: 20px;
+    }
+    .upcoming_events_row {
+      flex-direction: column;
+    }
+    .upcoming_events_container {
+      height: 100vh;
+    }
+  }
+  @media screen and (max-width:426px) {
+    .promotions_text {
+      font-size: 7px;
+      font-family: Arial, Helvetica, sans-serif !important;
+      margin: 2px 0px;
+    }
+    .promotions_center_text {
+      padding-top: 5px;
+    }
+    .intro_card_container {
+      margin-bottom: 15%;
+    }
+    .each_video_item1 {
+      height: 100px;
+    }
+    .each_video_item2 {
+      height: 100px;
+    }
+    .each_video_item3 {
+      height: 100px;
+    }
+    .img_container {
+      height: 250px !important;
+      width: 250px !important;
+    }
+    .img_container img {
+      height: 300px;
+      width: 250px;
+    }
+    .upcoming_events_container {
+      height: 90vh;
+      margin-bottom: 15px !important;
+      margin-top: 100px !important; 
+    }
+    .upcoming_events_row {
+      justify-content: center;
+      padding: 25px 25px;
+    }
+    .register_btn_in_promotions {
+      font-size: 5px;
+    }
+  }
