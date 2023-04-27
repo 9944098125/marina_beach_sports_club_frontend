@@ -6,11 +6,15 @@ import {
   AiFillYoutube,
   AiFillInstagram,
 } from "react-icons/ai";
+import { useMediaQuery } from "react-responsive";
 
 import logo from "../../Assets/Images/logo.png";
 import "./styles.css";
 
 export default function Footer() {
+  const bigDevicesView = useMediaQuery({
+    query: "(min-width:500px)",
+  });
   return (
     <React.Fragment>
       <div className="footer_container">
@@ -19,13 +23,15 @@ export default function Footer() {
           className="div_with_logo"
         >
           <img src={logo} alt="" />
-          <div className="social_media_icons_container">
-            <AiOutlineTwitter color="white" />
-            <AiFillFacebook color="white" />
-            <AiFillLinkedin color="white" />
-            <AiFillYoutube color="white" />
-            <AiFillInstagram color="white" />
-          </div>
+          {bigDevicesView && (
+            <div className="social_media_icons_container">
+              <AiOutlineTwitter color="white" />
+              <AiFillFacebook color="white" />
+              <AiFillLinkedin color="white" />
+              <AiFillYoutube color="white" />
+              <AiFillInstagram color="white" />
+            </div>
+          )}
         </div>
         <div className="footer_bottom_part">
           <p className="light_text">2023 Events</p>
@@ -35,6 +41,18 @@ export default function Footer() {
           <p className="light_text">Media</p>
           <p className="light_text">Subscribe with Us</p>
         </div>
+        {!bigDevicesView && (
+          <div
+            style={{ justifyContent: "center" }}
+            className="social_media_icons_container"
+          >
+            <AiOutlineTwitter color="white" />
+            <AiFillFacebook color="white" />
+            <AiFillLinkedin color="white" />
+            <AiFillYoutube color="white" />
+            <AiFillInstagram color="white" />
+          </div>
+        )}
       </div>
     </React.Fragment>
   );

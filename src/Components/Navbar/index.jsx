@@ -3,6 +3,7 @@ import { AiOutlineDown, AiFillYoutube } from "react-icons/ai";
 import { BsInstagram } from "react-icons/bs";
 import { CgProfile } from "react-icons/cg";
 import { BiSearch, BiUpArrow } from "react-icons/bi";
+import { HiOutlineBars3CenterLeft } from "react-icons/hi2";
 import { useMediaQuery } from "react-responsive";
 import { FaBars, FaFacebookF } from "react-icons/fa";
 
@@ -69,7 +70,7 @@ export default function Navbar() {
               <FaFacebookF color="#013b5c" fontSize="20px" />
             </div>
             <div className="bars_container">
-              <FaBars />
+              <HiOutlineBars3CenterLeft fontSize="25px" />
               <div className="medium_devices_links">
                 <div className="each_link_item">
                   <p className="each_link_item_text">Events</p>

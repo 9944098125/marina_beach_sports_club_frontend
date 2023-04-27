@@ -19,7 +19,9 @@ function Promotions() {
                 Training to upcoming beach related games.
               </p>
               <div className="last_line">
-                <p className="promotions_text">See you on the sand!</p>
+                <p style={{ fontWeight: "800" }} className="promotions_text">
+                  See you on the sand!
+                </p>
                 <button className="register_btn_in_promotions">
                   Register For Free
                   <AiOutlineArrowRight />

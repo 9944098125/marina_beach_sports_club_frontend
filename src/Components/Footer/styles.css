@@ -1,6 +1,6 @@
 .footer_container {
     background-color: #000000;
-    height: 50vh;
+    padding: 25px 10px;
 }
 .footer_container .div_with_logo {
     display: flex;
@@ -38,12 +38,15 @@
         align-items: center;
         padding: 5px 15px;
         margin: 15px 15px;
+        border-bottom: none;
     }
-    .social_media_icons_container {
+    .footer_container .div_with_logo {
         flex-direction: column;
+        gap: 25px;
+        padding-bottom: 25px;
     }
     .footer_bottom_part {
-        flex-wrap: wrap;
+        flex-direction: column;
     }
     .footer_container {
       height: 100%;
