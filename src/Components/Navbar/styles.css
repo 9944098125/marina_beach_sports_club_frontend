@@ -30,6 +30,7 @@
     position: fixed;
     top: 0;
     z-index: 100;
+    margin-bottom: 0;
   }
   
   .div_with_logo {
@@ -58,24 +59,27 @@
     border: none;
   }
   
-  .list_of_nav_items {
+  .list_of_desktop_nav_items {
     display: flex;
-    align-items: center;
+    align-items: center !important;
     justify-content: space-between;
     background-color: #FFFFFF;
-    padding: 5px 80px;
+    padding: 15px 80px;
+    height: 100%;
   }
   
-  .desktop_list_container {
+  .desktop_list_container1 {
     display: flex;
-    align-items: center;
+    align-items: center !important;
     list-style-type: none;
     gap: 25px;
+    height: 100% !important;
+    margin: 0 0 !important;
   }
   
   .list_item {
     display: flex;
-    align-items: center;
+    align-items: center !important;
     gap: 10px;
   }
   
@@ -83,6 +87,7 @@
     font-size: 14px;
     color: #414042;
     font-weight: 700;
+    margin: 0 0;
   }
   
   .search_container {
@@ -100,21 +105,24 @@
   }
   
   @media screen and (max-width:945px) {
-     .list_of_nav_items {
+     .list_of_desktop_nav_items {
       padding: 0 0;
      }
   }
   @media screen and (max-width:780px) {
-    .list_of_nav_items {
+    .list_of_desktop_nav_items {
       display: none;
     }
     .search_input {
       height: 40px;
       border-radius: 25px;
     }
+    .social_media_icons {
+      display: none;
+    }
   }
   @media screen and (max-width:600px) {
-    .desktop_list_container {
+    .desktop_list_container1 {
       flex-wrap: wrap;
       gap: 10px;
     }
@@ -136,7 +144,6 @@
   }
   .bars_container {
     padding: 10px;
-    box-shadow: 0px 1px 0px 0px grey;
   }
   @media screen and (min-width:769px) {
     .bars_container {
@@ -152,13 +159,15 @@
     padding: 15px;
     border-radius: 10px;
     box-shadow: 2px 2px 2px 2px grey;
+    right: 15px;
     display: none;
+    width: 200px;
   }
   .each_link_item {
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 15px;
+    justify-content: space-around;
     cursor: pointer;
   }
   .bars_container:hover .medium_devices_links {
@@ -170,6 +179,7 @@
     -webkit-background-clip: text;
     color: transparent;
     font-weight: 600;
+    margin: 0 0;
   }
   .mobile_search_container {
     position: absolute;
@@ -180,4 +190,17 @@
     display: flex;
     align-items: center;
     gap: 20px;
+  }
+
+  .icons_bars_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3px 10px;
+    margin: 0 0;
+  }
+  .icons_container {
+    display: flex;
+    align-items: center;
+    gap: 15px;
   }

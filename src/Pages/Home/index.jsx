@@ -1,7 +1,5 @@
 import React from "react";
-import { AiOutlineArrowRight } from "react-icons/ai";
 import { useMediaQuery } from "react-responsive";
-import Carousel from "react-bootstrap/Carousel";
 
 import "./styles.css";
 import IntroductionCard from "./IntroductionCard";
@@ -11,6 +9,7 @@ import mikasa from "../../Assets/Images/mikasa.png";
 import sponsor from "../../Assets/Images/Vector.png";
 import smallMikasa from "../../Assets/Images/smallMikasa.png";
 import Promotions from "./Promotions";
+import CarouselPart from "./Carousel";
 
 export default function Home() {
   const mobileView = useMediaQuery({
@@ -18,20 +17,7 @@ export default function Home() {
   });
   return (
     <React.Fragment>
-      <div className="landing_image_bg">
-        <div className="linear_gradient_container">
-          <div className="text_container">
-            <h3 className="landing_bg_text">
-              The Whole New Level Game Play in India
-            </h3>
-            <p className="small_text">We bring you the best beach game ever</p>
-            <button className="join_btn">
-              Join Us Now
-              <AiOutlineArrowRight />
-            </button>
-          </div>
-        </div>
-      </div>
+      <CarouselPart />
       <div className="intro_card_container">
         <IntroductionCard />
       </div>

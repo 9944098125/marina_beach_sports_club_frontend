@@ -31,3 +31,13 @@ body::-webkit-scrollbar {
   font-weight: 700;
   font-family: cursive;
 }
+.carousel {
+  width: 100%;
+  height: 100%;
+}
+.inner_row {
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+  width: 95%;
+}
