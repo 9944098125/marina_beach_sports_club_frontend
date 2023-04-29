@@ -1,0 +1,151 @@
+.about_row {
+  display: flex;
+  width: 80%;
+}
+.about_text_container {
+  width: 70%;
+  padding: 10px 20px;
+  color: #025273;
+}
+.about_head {
+  font-size: 26px;
+  font-weight: 700;
+}
+.about_text {
+  font-size: 16px;
+}
+.about_row img {
+  width: 30%;
+}
+.row_container2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0 !important;
+  margin-bottom: 25px;
+  background-color: #e7eff5;
+  padding: 20px 0;
+}
+.grid_row {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-bottom: 50px;
+}
+.founders_container {
+  display: flex;
+  justify-content: center;
+}
+.grid_container {
+  width: 80%;
+}
+.each_grid {
+  height: 250px;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.each_grid img {
+  min-height: 250px;
+  height: 80%;
+  width: 100%;
+}
+.founders_head {
+  color: #013d5e;
+  font-size: 30px;
+  font-weight: 700;
+}
+.grid_text {
+  color: #afa566;
+  font-size: 14px;
+}
+.grid_text_2 {
+  color: #565859;
+  font-size: 12px;
+}
+.achievements_container {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 25px 10px;
+  margin-bottom: 50px;
+}
+.achievements_container::before {
+  content: "";
+  background-image: url("../../Assets/Images/achievements.jpg");
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.6;
+}
+.achievements_head {
+    color: white;
+    font-weight: 800;
+    font-size: 32px;
+    position: relative;
+    margin-bottom: 50px;
+}
+.achievements_text {
+    position: relative;
+    color: white;
+    font-size: 14px;
+}
+.middle_text {
+    width: 80%;
+}
+@media screen and (max-width: 1000px) {
+  .about_row {
+    flex-direction: column;
+    align-items: center;
+  }
+  .about_row img {
+    width: 60%;
+  }
+  .about_text_container {
+    width: 100%;
+  }
+  .about_head {
+    font-size: 22px;
+    font-weight: 700;
+  }
+  .about_text {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .about_row {
+    flex-direction: column;
+  }
+  .about_row img {
+    width: 80%;
+  }
+  .about_head {
+    font-size: 18px;
+    font-weight: 700;
+  }
+  .about_text {
+    font-size: 12px;
+  }
+  .each_grid img {
+    max-height: 100px;
+  }
+  .each_grid {
+    width: 60%;
+  }
+}
+@media screen and (max-width: 425px) {
+  .each_grid {
+    width: 100%;
+  }
+}

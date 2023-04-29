@@ -38,10 +38,12 @@ function CarouselPart() {
           <div className="linear_gradient_container">
             <div className="text_container">
               <h3 className="landing_bg_text">
-                The Whole New Level Game Play in India
+                Asian Junior beach volleyball championship
               </h3>
               <p className="small_text">
-                We bring you the best beach game ever
+                2010 is a Mega event witnessed by 5000 people, 54 countries
+                involved - 32 teams - 24 in the league - $100k prize money - it
+                was event of extravaganza
               </p>
               <button className="join_btn">
                 Join Us Now
@@ -57,9 +59,7 @@ function CarouselPart() {
         >
           <div className="linear_gradient_container">
             <div className="text_container">
-              <h3 className="landing_bg_text">
-                The Whole New Level Game Play in India
-              </h3>
+              <h3 className="landing_bg_text">FIVB challenge 2010</h3>
               <p className="small_text">
                 We bring you the best beach game ever
               </p>
