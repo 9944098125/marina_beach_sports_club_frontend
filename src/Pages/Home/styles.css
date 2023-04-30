@@ -1,5 +1,4 @@
 .landing_image_bg {
-  /* background-image: url("../../Assets/Images/landingImage.png"); */
   background-size: cover;
   background-position: center;
   width: 100%;
@@ -448,7 +447,7 @@
     padding-top: 5px;
   }
   .intro_card_container {
-    margin-bottom: 15%;
+    margin-bottom: 250px;
   }
   .each_video_item1 {
     height: 100px;

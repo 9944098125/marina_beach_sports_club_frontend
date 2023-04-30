@@ -73,7 +73,10 @@ export default function Navbar() {
                       width: "100%",
                     }}
                   >
-                    <li className="medium_devices_menu_item">
+                    <li
+                      className="medium_devices_menu_item"
+                      onClick={closeMediumDevicesSideMenu}
+                    >
                       <p>Home</p>
                       <BsChevronDown color="rgb(59, 57, 57)" fontSize="25px" />
                     </li>
@@ -86,7 +89,10 @@ export default function Navbar() {
                       width: "100%",
                     }}
                   >
-                    <li className="medium_devices_menu_item">
+                    <li
+                      className="medium_devices_menu_item"
+                      onClick={closeMediumDevicesSideMenu}
+                    >
                       <p>Events</p>
                       <BsChevronDown color="rgb(59, 57, 57)" fontSize="25px" />
                     </li>
@@ -99,7 +105,10 @@ export default function Navbar() {
                       width: "100%",
                     }}
                   >
-                    <li className="medium_devices_menu_item">
+                    <li
+                      className="medium_devices_menu_item"
+                      onClick={closeMediumDevicesSideMenu}
+                    >
                       <p>Gallery</p>
                       <BsChevronDown color="rgb(59, 57, 57)" fontSize="25px" />
                     </li>
@@ -112,7 +121,10 @@ export default function Navbar() {
                       width: "100%",
                     }}
                   >
-                    <li className="medium_devices_menu_item">
+                    <li
+                      className="medium_devices_menu_item"
+                      onClick={closeMediumDevicesSideMenu}
+                    >
                       <p>Newsroom</p>
                       <BsChevronDown color="rgb(59, 57, 57)" fontSize="25px" />
                     </li>
@@ -125,7 +137,10 @@ export default function Navbar() {
                       width: "100%",
                     }}
                   >
-                    <li className="medium_devices_menu_item">
+                    <li
+                      className="medium_devices_menu_item"
+                      onClick={closeMediumDevicesSideMenu}
+                    >
                       <p>About us</p>
                       <BsChevronDown color="rgb(59, 57, 57)" fontSize="25px" />
                     </li>
@@ -138,7 +153,10 @@ export default function Navbar() {
                       width: "100%",
                     }}
                   >
-                    <li className="medium_devices_menu_item">
+                    <li
+                      className="medium_devices_menu_item"
+                      onClick={closeMediumDevicesSideMenu}
+                    >
                       <p>Get Involved</p>
                       <BsChevronDown color="rgb(59, 57, 57)" fontSize="25px" />
                     </li>

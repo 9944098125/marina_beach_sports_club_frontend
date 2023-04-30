@@ -17,14 +17,12 @@ function CarouselPart() {
         >
           <div className="linear_gradient_container">
             <div className="text_container">
-              <h3 className="landing_bg_text">
-                The Whole New Level Game Play in India
-              </h3>
+              <h3 className="landing_bg_text">Pro-Tour 2023</h3>
               <p className="small_text">
                 We bring you the best beach game ever
               </p>
               <button className="join_btn">
-                Join Us Now
+                Know more
                 <AiOutlineArrowRight />
               </button>
             </div>
@@ -46,7 +44,7 @@ function CarouselPart() {
                 was event of extravaganza
               </p>
               <button className="join_btn">
-                Join Us Now
+                Know more
                 <AiOutlineArrowRight />
               </button>
             </div>
@@ -64,7 +62,7 @@ function CarouselPart() {
                 We bring you the best beach game ever
               </p>
               <button className="join_btn">
-                Join Us Now
+                Know more
                 <AiOutlineArrowRight />
               </button>
             </div>
