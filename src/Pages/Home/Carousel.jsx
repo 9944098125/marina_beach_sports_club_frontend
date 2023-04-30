@@ -1,6 +1,7 @@
 import React from "react";
 import { AiOutlineArrowRight } from "react-icons/ai";
 import { Carousel } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 import landingImage1 from "../../Assets/Images/landingImage1.jpg";
 import landingImage2 from "../../Assets/Images/landingImage2.jpg";
@@ -21,10 +22,15 @@ function CarouselPart() {
               <p className="small_text">
                 We bring you the best beach game ever
               </p>
-              <button className="join_btn">
-                Know more
-                <AiOutlineArrowRight />
-              </button>
+              <Link
+                to="/pro-tour"
+                style={{ color: "inherit", textDecoration: "none" }}
+              >
+                <button className="join_btn">
+                  Know more
+                  <AiOutlineArrowRight />
+                </button>
+              </Link>
             </div>
           </div>
         </Carousel.Item>
@@ -43,10 +49,15 @@ function CarouselPart() {
                 involved - 32 teams - 24 in the league - $100k prize money - it
                 was event of extravaganza
               </p>
-              <button className="join_btn">
-                Know more
-                <AiOutlineArrowRight />
-              </button>
+              <Link
+                to="/asian-championship"
+                style={{ textDecoration: "none", color: "inherit" }}
+              >
+                <button className="join_btn">
+                  Know more
+                  <AiOutlineArrowRight />
+                </button>
+              </Link>
             </div>
           </div>
         </Carousel.Item>
@@ -61,10 +72,15 @@ function CarouselPart() {
               <p className="small_text">
                 We bring you the best beach game ever
               </p>
-              <button className="join_btn">
-                Know more
-                <AiOutlineArrowRight />
-              </button>
+              <Link
+                to="/fivb-challenge"
+                style={{ textDecoration: "none", color: "inherit" }}
+              >
+                <button className="join_btn">
+                  Know more
+                  <AiOutlineArrowRight />
+                </button>
+              </Link>
             </div>
           </div>
         </Carousel.Item>

@@ -10,6 +10,9 @@ import About from "../Pages/About";
 import Gallery from "../Pages/Gallery";
 import Newsroom from "../Pages/Newsroom";
 import GetInvolved from "../Pages/GetInvolved";
+import ProTour from "../Pages/ProTour";
+import AsianChampionship from "../Pages/AsianChampionship";
+import FivbChallenge from "../Pages/FivbChallenge";
 
 const Layout = () => {
   return (
@@ -50,6 +53,18 @@ const routes = createBrowserRouter([
       {
         path: "/get-involved",
         element: <GetInvolved />,
+      },
+      {
+        path: "/pro-tour",
+        element: <ProTour />,
+      },
+      {
+        path: "fivb-challenge",
+        element: <FivbChallenge />,
+      },
+      {
+        path: "/asian-championship",
+        element: <AsianChampionship />,
       },
     ],
   },
