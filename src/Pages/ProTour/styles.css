@@ -1,3 +1,20 @@
 .pro_tour_container {
     padding-top: 100px;
 }
+.pro_tour_header {
+    display: flex;
+    padding: 10px 15px;
+}
+.pro_tour_header img {
+    height: 60vh;
+    width: 50%;
+}
+.pro_tour_text_col {
+    padding: 20px 15px;
+}
+.pro_tour_head {
+    font-size: 50px;
+    font-weight: 700;
+    color: rgb(0, 44, 105);
+    text-decoration: underline;
+}

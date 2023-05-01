@@ -1,3 +1,20 @@
 .fivb_container {
     padding-top: 100px;
 }
+.fivb_header {
+    display: flex;
+    padding: 10px 15px;
+}
+.fivb_header img {
+    height: 60vh;
+    width: 50%;
+}
+.fivb_text_col {
+    padding: 20px 15px;
+}
+.fivb_head {
+    font-size: 50px;
+    font-weight: 700;
+    color: rgb(0, 44, 105);
+    text-decoration: underline;
+}

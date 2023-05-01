@@ -31,9 +31,11 @@ export default function Navbar() {
     <React.Fragment>
       <div className="navbar_container">
         <div className="logo_social_media_icons_container">
-          <div className="logo_container">
-            <img src={logo} alt="" className="logo_img" />
-          </div>
+          <Link to="/" style={{ textDecoration: "none", color: "inherit" }}>
+            <div className="logo_container">
+              <img src={logo} alt="" className="logo_img" />
+            </div>
+          </Link>
           <div className="social_media_icons_container">
             <AiFillYoutube color="#013B5C" fontSize="30px" />
             <BsInstagram color="#013B5C" fontSize="20px" />
