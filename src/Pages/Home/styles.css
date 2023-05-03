@@ -7,27 +7,33 @@
 }
 
 .linear_gradient_container {
-  background: linear-gradient(
-    89.89deg,
-    #000000 -57.76%,
-    rgba(0, 0, 0, 0.680982) 1.75%,
-    rgba(0, 0, 0, 0) 87.03%
-  );
   height: 100%;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
+  align-items: center;
+  padding-right: 10%;
 }
-
+.linear_gradient_container img {
+  height: 45%;
+  width: 45%;
+}
 .text_container {
+  padding-top: 100px;
   width: 40%;
-  color: #ffffff;
   margin-left: 150px;
+}
+.text_container h1 {
+  font-size: 120px;
+  color: white;
+  font-weight: 800;
 }
 
 .landing_bg_text {
-  font-size: 46px;
+  font-size: 70px;
+  color: #ffd146 !important;
+  font-weight: 800;
+}
+.small_text {
+  color: white;
 }
 
 .join_btn {
@@ -198,12 +204,12 @@
 .mikasa_img {
   display: flex;
   align-items: center;
-  justify-content: center;
   margin-bottom: 50px;
+  padding: 0 60px;
 }
 .mikasa_img img {
-  height: 400px;
-  width: 700px;
+  height: 300px;
+  width: 50%;
 }
 .promotions_container {
   display: flex;
@@ -344,8 +350,8 @@
     width: 50px;
   }
   .mikasa_img img {
-    height: 250px;
-    width: 60%;
+    height: 120px;
+    width: 30%;
   }
 }
 

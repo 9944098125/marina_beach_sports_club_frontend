@@ -3,9 +3,10 @@ import { AiOutlineArrowRight } from "react-icons/ai";
 import { Carousel } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
-import landingImage1 from "../../Assets/Images/landingImage1.jpg";
-import landingImage2 from "../../Assets/Images/landingImage2.jpg";
-import landingImage3 from "../../Assets/Images/landingImage3.jpg";
+import bannerBg from "../../Assets/Images/bannerBg.png";
+import bbMan from "../../Assets/Images/bbMan.png";
+import miramir from "../../Assets/Images/miramir.png";
+import vBeachCalendar from "../../Assets/Images/vbeachCalendar.png";
 import "./styles.css";
 
 function CarouselPart() {
@@ -13,76 +14,67 @@ function CarouselPart() {
     <React.Fragment>
       <Carousel>
         <Carousel.Item
-          style={{ backgroundImage: `url(${landingImage1})` }}
+          style={{ backgroundImage: `url(${bannerBg})` }}
           className="landing_image_bg"
         >
-          <div className="linear_gradient_container">
-            <div className="text_container">
-              <h3 className="landing_bg_text">Pro-Tour 2023</h3>
-              <p className="small_text">
-                We bring you the best beach game ever
-              </p>
-              <Link
-                to="/pro-tour"
-                style={{ color: "inherit", textDecoration: "none" }}
-              >
-                <button className="join_btn">
-                  Know more
-                  <AiOutlineArrowRight />
-                </button>
-              </Link>
+          <Link
+            to="/pro-tour"
+            style={{ color: "inherit", textDecoration: "none" }}
+          >
+            <div className="linear_gradient_container">
+              <div className="text_container">
+                <h3 className="landing_bg_text">Pro-Tour</h3>
+                <h1>2 0 2 3</h1>
+              </div>
+              <img src={vBeachCalendar} alt="" />
             </div>
-          </div>
+          </Link>
         </Carousel.Item>
 
         <Carousel.Item
-          style={{ backgroundImage: `url(${landingImage2})` }}
+          style={{ backgroundImage: `url(${bannerBg})` }}
           className="landing_image_bg"
         >
-          <div className="linear_gradient_container">
-            <div className="text_container">
-              <h3 className="landing_bg_text">
-                Asian Junior beach volleyball championship
-              </h3>
-              <p className="small_text">
-                2010 is a Mega event witnessed by 5000 people, 54 countries
-                involved - 32 teams - 24 in the league - $100k prize money - it
-                was event of extravaganza
-              </p>
-              <Link
-                to="/asian-championship"
-                style={{ textDecoration: "none", color: "inherit" }}
-              >
-                <button className="join_btn">
-                  Know more
-                  <AiOutlineArrowRight />
-                </button>
-              </Link>
+          <Link
+            to="/asian-championship"
+            style={{ textDecoration: "none", color: "inherit" }}
+          >
+            <div className="linear_gradient_container">
+              <div className="text_container">
+                <h3 className="landing_bg_text">Miramir beach</h3>
+                <p className="small_text">
+                  The World Beach Pro Tour is an entertainment platform that
+                  combines Sport, Music, Food and the Beach Lifestyle within a
+                  single event space.
+                </p>
+              </div>
+              <img src={miramir} alt="" />
             </div>
-          </div>
+          </Link>
         </Carousel.Item>
 
         <Carousel.Item
-          style={{ backgroundImage: `url(${landingImage3})` }}
+          style={{ backgroundImage: `url(${bannerBg})` }}
           className="landing_image_bg"
         >
-          <div className="linear_gradient_container">
-            <div className="text_container">
-              <h3 className="landing_bg_text">FIVB challenge 2010</h3>
-              <p className="small_text">
-                We bring you the best beach game ever
-              </p>
-              <Link
-                to="/fivb-challenge"
-                style={{ textDecoration: "none", color: "inherit" }}
-              >
-                <button className="join_btn">
-                  Know more
-                  <AiOutlineArrowRight />
-                </button>
-              </Link>
+          <Link
+            to="/fivb-challenge"
+            style={{ textDecoration: "none", color: "inherit" }}
+          >
+            <div className="linear_gradient_container">
+              <div className="text_container">
+                <h3 className="landing_bg_text">
+                  Goa World Beach Pro Tour 2023
+                </h3>
+                <p className="small_text">
+                  Come for the sport – and stay for the party! And then come
+                  again for both. This is what makes World Beach Pro Tour
+                  unique.
+                </p>
+              </div>
+              <img src={bbMan} alt="" />
             </div>
-          </div>
+          </Link>
         </Carousel.Item>
       </Carousel>
     </React.Fragment>

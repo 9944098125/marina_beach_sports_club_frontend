@@ -5,6 +5,7 @@ import "./styles.css";
 import IntroductionCard from "./IntroductionCard";
 import Upcoming from "./Upcoming";
 import VideosGrid from "./VideosGrid";
+import fivb from "../../Assets/Images/fivb.png";
 import mikasa from "../../Assets/Images/mikasa.png";
 import sponsor from "../../Assets/Images/Vector.png";
 import smallMikasa from "../../Assets/Images/smallMikasa.png";
@@ -39,6 +40,7 @@ export default function Home() {
       )}
       <div className="mikasa_img">
         <img src={mikasa} alt="" />
+        <img src={fivb} alt="" />
       </div>
       <Promotions />
     </React.Fragment>
