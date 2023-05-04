@@ -7,6 +7,10 @@ import bannerBg from "../../Assets/Images/bannerBg.png";
 import bbMan from "../../Assets/Images/bbMan.png";
 import miramir from "../../Assets/Images/miramir.png";
 import vBeachCalendar from "../../Assets/Images/vbeachCalendar.png";
+import upWhite from "../../Assets/Images/upWhite.png";
+import upYellow from "../../Assets/Images/upYellow.png";
+import downWhite from "../../Assets/Images/downWhite.png";
+import downYellow from "../../Assets/Images/downYellow.png";
 import "./styles.css";
 
 function CarouselPart() {
@@ -18,7 +22,7 @@ function CarouselPart() {
           className="landing_image_bg"
         >
           <Link
-            to="/pro-tour"
+            to="/news-events"
             style={{ color: "inherit", textDecoration: "none" }}
           >
             <div className="linear_gradient_container">
@@ -26,7 +30,17 @@ function CarouselPart() {
                 <h3 className="landing_bg_text">Pro-Tour</h3>
                 <h1>2 0 2 3</h1>
               </div>
-              <img src={vBeachCalendar} alt="" />
+              <div className="img_container2">
+                <div className="abstract_container">
+                  <img src={upYellow} alt="" className="yellow_img1" />
+                  <img src={upWhite} alt="" className="yellow_img1" />
+                </div>
+                <img src={vBeachCalendar} alt="" className="miramir_img" />
+                <div className="abstract_container">
+                  <img src={downYellow} alt="" className="yellow_img1a" />
+                  <img src={downWhite} alt="" className="yellow_img1a" />
+                </div>
+              </div>
             </div>
           </Link>
         </Carousel.Item>
@@ -36,7 +50,7 @@ function CarouselPart() {
           className="landing_image_bg"
         >
           <Link
-            to="/asian-championship"
+            to="/news-events"
             style={{ textDecoration: "none", color: "inherit" }}
           >
             <div className="linear_gradient_container">
@@ -48,7 +62,17 @@ function CarouselPart() {
                   single event space.
                 </p>
               </div>
-              <img src={miramir} alt="" />
+              <div className="img_container2">
+                <div className="abstract_container">
+                  <img src={upYellow} alt="" className="yellow_img2" />
+                  <img src={upWhite} alt="" className="yellow_img2" />
+                </div>
+                <img src={miramir} alt="" className="miramir_img" />
+                <div className="abstract_container">
+                  <img src={downYellow} alt="" className="yellow_img2a" />
+                  <img src={downWhite} alt="" className="yellow_img2a" />
+                </div>
+              </div>
             </div>
           </Link>
         </Carousel.Item>
@@ -58,7 +82,7 @@ function CarouselPart() {
           className="landing_image_bg"
         >
           <Link
-            to="/fivb-challenge"
+            to="/news-events"
             style={{ textDecoration: "none", color: "inherit" }}
           >
             <div className="linear_gradient_container">
@@ -72,7 +96,17 @@ function CarouselPart() {
                   unique.
                 </p>
               </div>
-              <img src={bbMan} alt="" />
+              <div className="img_container2">
+                <div className="abstract_container">
+                  <img src={upYellow} alt="" className="yellow_img3" />
+                  <img src={upWhite} alt="" className="yellow_img3" />
+                </div>
+                <img src={bbMan} alt="" className="miramir_img2" />
+                <div className="abstract_container">
+                  <img src={downYellow} alt="" className="yellow_img3a" />
+                  <img src={downWhite} alt="" className="yellow_img3a" />
+                </div>
+              </div>
             </div>
           </Link>
         </Carousel.Item>

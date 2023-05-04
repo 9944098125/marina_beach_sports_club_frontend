@@ -1,146 +1,79 @@
-.gallery_container {
-  margin-bottom: 50px;
-  padding-top: 90px;
-}
-.top_part_container {
-  background-color: #ffea00;
-  height: 50vh;
-  width: 100%;
+.bold_text_container {
   display: flex;
-  padding: 0 0;
-  overflow-x: hidden;
-}
-.top_part_container img {
-  height: 100%;
-}
-.line1 {
-  margin-right: -100px;
-}
-.line3 {
-  margin-right: -100px;
-}
-.gallery_text_container {
-  height: 100%;
-  width: 50%;
-  display: flex;
-  flex-direction: column;
   justify-content: center;
-  padding: 5px 15px;
-}
-.gallery_head {
-  font-size: 35px;
-  font-weight: 700;
-  color: rgb(2, 62, 118);
-}
-.gallery_text {
-  font-size: 15px;
-  font-weight: 400;
-  color: rgb(2, 72, 129);
-}
-.gallery_middle_text_container {
-  display: flex;
-  flex-direction: column;
   align-items: center;
-  gap: 25px;
-  padding: 25px 15px;
 }
-.gallery_middle_text {
-  width: 80%;
+.bold_text {
+  width: 85%;
   text-align: center;
-  color: #024264;
-  font-size: 14px;
+  font-weight: 700;
+  color: #025273;
 }
-.images_row_container {
+.row_container {
   display: flex;
   justify-content: center;
+  align-items: center;
+  margin-bottom: 25px;
 }
-.inner_images_row {
+.total_row {
   width: 80%;
   display: flex;
   align-items: center;
   gap: 25px;
+  padding: 15px;
 }
-.inner_images_row img {
-  width: 30%;
-  height: 250px;
+.total_row img {
+  width: 50%;
+  height: 100%;
 }
-.shady_img1 {
-  background-image: url("https://mvasports.com/images/2019/7/11/2_11_16_Sand_Volley_356.JPG");
-  background-size: cover;
-  background-position: center;
-  width: 30%;
-  height: 250px;
+.total_row .rows_text_container {
+  height: 100%;
 }
-.shady_img2 {
-  background-image: url("https://volleycountry.com/wp-content/uploads/2022/06/dubai-volleyball.jpg");
-  background-size: cover;
-  background-position: center;
-  width: 30%;
-  height: 250px;
+.rows_text_container .head {
+  font-size: 26px;
+  font-weight: 700;
+  color: #025273;
 }
-.blue_gradient {
-    background: linear-gradient(rgb(41, 41, 228), rgb(112, 167, 192));
-    height: 100%;
-    opacity: 0.5;
+.rows_text_container .text {
+  font-weight: 400;
+  font-size: 16px;
+  color: #025273;
 }
-.view_btn {
-    display: flex;
-    justify-content: center;
-  align-items: center;
-  padding: 12px 16px;
-  width: 162px !important;
-  height: 41px;
-  background: #024263;
-  border-radius: 42px;
-  color: white;
-  border: none;
-  outline: none;
+.linear_gradient_container3 {
+  background: linear-gradient(
+    89.89deg,
+    #000000 -57.76%,
+    rgba(0, 0, 0, 0.680982) 1.75%,
+    rgba(0, 0, 0, 0) 87.03%
+  );
+  height: 100%;
 }
-@media screen and (min-width: 1440px) {
-  .line1 {
-    margin-right: -150px;
+.linear_gradient_container3 .text_container {
+  width: 60% !important;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+@media screen and (max-width: 1000px) {
+  .total_row {
+    flex-direction: column;
   }
-  .line3 {
-    margin-right: -150px;
+  .total_row img {
+    width: 100%;
   }
-}
-@media screen and (max-width: 1440px) {
-  .line1 {
-    margin-right: -100px;
-  }
-  .line3 {
-    margin-right: -120px;
+  .bold_text {
+    font-size: 22px;
   }
 }
-@media screen and (max-width: 850px) {
-  .line1,
-  .line2,
-  .line3,
-  .line4 {
-    display: none;
+@media screen and (max-width: 768px) {
+  .bold_text {
+    font-size: 18px;
   }
-  .gallery_text_container {
-    width: 60%;
+  .rows_text_container .head {
+    font-size: 19px;
   }
-  .gallery_head {
-    font-size: 25px;
-  }
-  .gallery_text {
-    font-size: 10px;
-  }
-  .gallery_image {
-    width: 50%;
-  }
-  .gallery_middle_text {
+  .rows_text_container .text {
     font-size: 12px;
-  }
-  .inner_images_row img {
-    height: 100px;
-  }
-  .shady_img1 {
-    height: 100px;
-  }
-  .shady_img2 {
-    height: 100px;
   }
 }

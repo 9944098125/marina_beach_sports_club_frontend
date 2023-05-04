@@ -5,17 +5,11 @@ import rows1 from "../../Assets/Images/rows1.png";
 import "./styles.css";
 import Rows from "./Rows";
 
-export default function Events() {
+export default function Gallery() {
   return (
     <React.Fragment>
       <TopPart />
-      <div className="bold_text_container">
-        <h3 className="bold_text">
-          Get ready for the biggest beach volleyball event of the year! The
-          Volleyball World Beach Pro Tour 2023 is coming to Goa from October
-          19th to 22nd, and you won't want to miss a minute of the action.
-        </h3>
-      </div>
+      <div className="bold_text_container"></div>
       <Rows
         index={0}
         image={rows1}

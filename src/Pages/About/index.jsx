@@ -5,6 +5,7 @@ import TopPart from "./TopPart";
 import AboutRow from "./AboutRow";
 import Founders from "./Founders";
 import Achievements from "./Achievements";
+import VisionMission from "./VisionMission";
 
 export default function About() {
   return (
@@ -13,6 +14,7 @@ export default function About() {
         <TopPart />
         <AboutRow />
         <Founders />
+        <VisionMission />
         <Achievements />
       </div>
     </React.Fragment>

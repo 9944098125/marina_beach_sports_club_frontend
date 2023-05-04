@@ -1,5 +1,5 @@
 * {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   padding: 0;
   margin: 0;
 }
@@ -8,7 +8,7 @@ body::-webkit-scrollbar {
 }
 
 :root {
-  --primary-color: #0372e9;
+  --primary-color: #003a77;
   --secondary-color: #2d3c57;
   --dark-color: #00158c;
   --light-color: #608bb3;
