@@ -34,6 +34,9 @@ export default function Navbar() {
           <Link to="/" style={{ textDecoration: "none", color: "inherit" }}>
             <div className="logo_container">
               <img src={logo} alt="" className="logo_img" />
+              <h3 className="app_name">
+                MARINA <br /> BEACH SPORTS CLUB
+              </h3>
             </div>
           </Link>
           <div className="social_media_icons_container">
@@ -42,11 +45,11 @@ export default function Navbar() {
             <FaFacebookF color="#013B5C" fontSize="20px" />
           </div>
         </div>
-        {!mediumDevicesView && (
+        {/* {!mediumDevicesView && (
           <div className="search_input_container">
             <input type="search" placeholder="I am looking for..." />
           </div>
-        )}
+        )} */}
         {mediumDevicesView && (
           <div className="medium_devices_bars_container">
             <HiOutlineBars3CenterLeft
@@ -167,22 +170,22 @@ export default function Navbar() {
                 <div className="search_input_container">
                   <input type="search" placeholder="I am looking for..." />
                 </div>
-                <div className="medium_devices_login_btn_container">
+                {/* <div className="medium_devices_login_btn_container">
                   <button className="login_btn">
                     <CgProfile fontSize="18px" />
                     Login/Sign up
                   </button>
-                </div>
+                </div> */}
               </div>
             )}
           </div>
         )}
-        <div className="login_btn_container">
+        {/* <div className="login_btn_container">
           <button className="login_btn">
             <CgProfile fontSize="18px" />
             Login/Sign up
           </button>
-        </div>
+        </div> */}
         <ul className="menu_items_container">
           <Link to="/" style={{ textDecoration: "none", color: "inherit" }}>
             <li className="menu_item">
@@ -232,6 +235,11 @@ export default function Navbar() {
           </Link>
         </ul>
       </div>
+      {/* <div className="name_container">
+        <h3 className="app_name">
+          Marina Beach <br /> Sports Club
+        </h3>
+      </div> */}
     </React.Fragment>
   );
 }

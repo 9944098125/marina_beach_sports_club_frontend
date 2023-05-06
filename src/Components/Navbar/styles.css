@@ -18,6 +18,29 @@
   border: none;
   padding: 5px 25px;
 }
+.name_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 0px;
+  top: 80px;
+  padding: 15px;
+  background-color: white;
+  z-index: 200;
+  position: fixed;
+  border-bottom-right-radius: 45px;
+}
+.app_name {
+  color: var(--primary-color);
+  font-size: 23px;
+  font-weight: 800;
+  font-family: "Oswald", sans-serif;
+}
+.logo_img {
+  height: 100%;
+  width: 30%;
+}
 
 @media screen and (min-width: 1080px) {
   .menu_item {
@@ -49,12 +72,14 @@
     color: rgb(59, 57, 57);
   }
   .logo_container {
+    display: flex;
+    align-items: center;
     height: 80px;
-    width: 90px;
+    width: 300px;
   }
   .logo_img {
     height: 100%;
-    width: 100%;
+    width: 32%;
   }
   .login_btn_container .login_btn {
     height: 42px;
@@ -127,12 +152,14 @@
     display: none;
   }
   .logo_container {
+    display: flex;
+    align-items: center;
     height: 70px;
-    width: 85px;
+    width: 280px;
   }
   .logo_img {
     height: 100%;
-    width: 100%;
+    width: 35%;
   }
   .medium_devices_side_menu {
     height: 100vh;
@@ -170,11 +197,11 @@
 @media screen and (max-width: 768px) {
   .logo_container {
     height: 50px;
-    width: 60px;
+    width: 260px;
   }
   .logo_img {
     height: 100%;
-    width: 100%;
+    width: 27%;
   }
   .medium_devices_side_menu {
     width: 60%;
@@ -185,12 +212,21 @@
   .medium_devices_login_btn_container {
     margin: 10px 0;
   }
+  .app_name {
+    font-size: 15px;
+  }
+  .name_container {
+    top: 60px;
+  }
 }
 @media screen and (max-width: 425px) {
-  .social_media_icons_container {
+  .logo_social_media_icons_container .social_media_icons_container {
     display: none;
   }
   .medium_devices_side_menu {
     width: 80%;
+  }
+  .app_name {
+    font-size: 10px;
   }
 }

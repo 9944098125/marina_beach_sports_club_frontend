@@ -110,6 +110,40 @@ function CarouselPart() {
             </div>
           </Link>
         </Carousel.Item>
+
+        <Carousel.Item
+          style={{
+            backgroundImage:
+              'url("https://www.fivb.org/Vis2009/Images/GetImage.asmx?No=202211896")',
+          }}
+          className="landing_image_bg"
+        >
+          <Link
+            to="/news-events"
+            style={{ textDecoration: "none", color: "inherit" }}
+          >
+            <div className="linear_gradient_container3">
+              <div className="text_container">
+                <h3 className="landing_bg_text">FIVB</h3>
+                <p className="small_text">
+                  FIVB President Meets Organisers Of Goa’s First-Ever Beach Pro
+                  Tour Challenge Event
+                </p>
+              </div>
+              {/* <div className="img_container2">
+                <div className="abstract_container">
+                  <img src={upYellow} alt="" className="yellow_img3" />
+                  <img src={upWhite} alt="" className="yellow_img3" />
+                </div>
+                <img src={bbMan} alt="" className="miramir_img2" />
+                <div className="abstract_container">
+                  <img src={downYellow} alt="" className="yellow_img3a" />
+                  <img src={downWhite} alt="" className="yellow_img3a" />
+                </div>
+              </div> */}
+            </div>
+          </Link>
+        </Carousel.Item>
       </Carousel>
     </React.Fragment>
   );
