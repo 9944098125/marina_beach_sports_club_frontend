@@ -44,7 +44,7 @@ export default function Newsroom() {
           a perfect backdrop for our sport with top athletes showcasing their
           best performances in front of the passionate fans.”
         </p>
-        <h4 className="newsroom_text">BEACH VOLLEYBALL SUMMER CAMP</h4>
+        <h4 className="newsroom_text">BEACH VOLLEYBALL SUMMER CAMP 2023</h4>
         <p className="newsroom_small_text">
           We are thrilled to announce the successful completion of our Summer
           Beach Volleyball Coaching Camp 2023, organized for under 17 category

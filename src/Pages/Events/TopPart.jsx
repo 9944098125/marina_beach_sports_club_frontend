@@ -10,9 +10,9 @@ import "./styles.css";
 function TopPart() {
   return (
     <React.Fragment>
-      <div className="top_part_container">
-        <img src={blueLine1} alt="" className="line1" />
-        <img src={blueLine2} alt="" className="line2" />
+      <div className="top_part_container1">
+        {/* <img src={blueLine1} alt="" className="line1" />
+        <img src={blueLine2} alt="" className="line2" /> */}
         <div className="gallery_text_container">
           <h3 className="gallery_head">Events</h3>
           <p className="gallery_text">
@@ -23,9 +23,9 @@ function TopPart() {
             tournaments and special events held throughout the year.
           </p>
         </div>
-        <img src={galleryImage} alt="" className="gallery_image" />
-        <img src={blueLine4} alt="" className="line3" />
-        <img src={blueLine3} alt="" className="line4" />
+        {/* <img src={galleryImage} alt="" className="gallery_image" /> */}
+        {/* <img src={blueLine4} alt="" className="line3" />
+        <img src={blueLine3} alt="" className="line4" /> */}
       </div>
     </React.Fragment>
   );

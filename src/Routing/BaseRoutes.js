@@ -20,7 +20,7 @@ const Layout = () => {
       <Navbar />
       <Outlet />
       <Footer />
-      <Construction />
+      {/* <Construction /> */}
     </div>
   );
 };

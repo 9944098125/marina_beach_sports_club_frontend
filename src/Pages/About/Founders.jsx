@@ -11,19 +11,19 @@ function Founders() {
           <div className="grid_row">
             <div className="each_grid">
               <img
-                src="https://home.barclays/content/dam/home-barclays/images/news/2021/04/HERO-BARCLAYS-INNOVATION-SUPPORTING-BLACK-FOUNDERS-16_9.large.medium_quality.jpg"
+                src="https://media.istockphoto.com/id/1300845620/vector/user-icon-flat-isolated-on-white-background-user-symbol-vector-illustration.jpg?s=612x612&w=0&k=20&c=yBeyba0hUkh14_jgv1OKqIH0CCSWU_4ckRkAoy2p73o="
                 alt=""
               />
               <p className="grid_text">Ravikanth Reddy</p>
-              <p className="grid_text_2">President</p>
+              <p className="grid_text_2">PRESIDENT</p>
             </div>
             <div className="each_grid">
               <img
-                src="https://www.stashfin.com/static/media/tushar-photo.a12864fde8cd9a111eea.webp"
+                src="https://media.istockphoto.com/id/1300845620/vector/user-icon-flat-isolated-on-white-background-user-symbol-vector-illustration.jpg?s=612x612&w=0&k=20&c=yBeyba0hUkh14_jgv1OKqIH0CCSWU_4ckRkAoy2p73o="
                 alt=""
               />
               <p className="grid_text">Dr. Goutham Sigamani</p>
-              <p className="grid_text_2">Chairman</p>
+              <p className="grid_text_2">CHAIRMAN</p>
             </div>
             <div className="each_grid">
               <img
@@ -31,47 +31,47 @@ function Founders() {
                 alt=""
               />
               <p className="grid_text">A.J.Martin Sudhakar</p>
-              <p className="grid_text_2">Founder & General Secretary</p>
+              <p className="grid_text_2">FOUNDER & GENERAL SECRETARY</p>
             </div>
             <div className="each_grid">
               <img
-                src="https://home.barclays/content/dam/home-barclays/images/news/2021/04/HERO-BARCLAYS-INNOVATION-SUPPORTING-BLACK-FOUNDERS-16_9.large.medium_quality.jpg"
+                src="https://media.istockphoto.com/id/1300845620/vector/user-icon-flat-isolated-on-white-background-user-symbol-vector-illustration.jpg?s=612x612&w=0&k=20&c=yBeyba0hUkh14_jgv1OKqIH0CCSWU_4ckRkAoy2p73o="
                 alt=""
               />
               <p className="grid_text">G Dhinakaran</p>
-              <p className="grid_text_2">Head Coach Men</p>
+              <p className="grid_text_2">HEAD COACH MEN</p>
             </div>
             <div className="each_grid">
               <img
-                src="https://www.stashfin.com/static/media/tushar-photo.a12864fde8cd9a111eea.webp"
+                src="https://media.istockphoto.com/id/1300845620/vector/user-icon-flat-isolated-on-white-background-user-symbol-vector-illustration.jpg?s=612x612&w=0&k=20&c=yBeyba0hUkh14_jgv1OKqIH0CCSWU_4ckRkAoy2p73o="
                 alt=""
               />
               <p className="grid_text">Ramakrishnan</p>
-              <p className="grid_text_2">Head Coach Women</p>
+              <p className="grid_text_2">HEAD COACH WOMEN</p>
             </div>
             <div className="each_grid">
               <img
-                src="https://media.istockphoto.com/id/1368076322/photo/portrait-of-a-confident-businesswoman-in-an-office.jpg?b=1&s=170667a&w=0&k=20&c=sMc2g5vzwaZG72TNUsiaiB05Uwoa0FcipI_KSGpT8VA="
+                src="https://media.istockphoto.com/id/1300845620/vector/user-icon-flat-isolated-on-white-background-user-symbol-vector-illustration.jpg?s=612x612&w=0&k=20&c=yBeyba0hUkh14_jgv1OKqIH0CCSWU_4ckRkAoy2p73o="
                 alt=""
               />
               <p className="grid_text">K.T.Lakshmanan</p>
-              <p className="grid_text_2">Volleyball / Beach Volleyball Coach</p>
+              <p className="grid_text_2">VOLLEYBALL / BEACH VOLLEYBALL COACH</p>
             </div>
             <div className="each_grid">
               <img
-                src="https://media.istockphoto.com/id/1368076322/photo/portrait-of-a-confident-businesswoman-in-an-office.jpg?b=1&s=170667a&w=0&k=20&c=sMc2g5vzwaZG72TNUsiaiB05Uwoa0FcipI_KSGpT8VA="
+                src="https://media.istockphoto.com/id/1300845620/vector/user-icon-flat-isolated-on-white-background-user-symbol-vector-illustration.jpg?s=612x612&w=0&k=20&c=yBeyba0hUkh14_jgv1OKqIH0CCSWU_4ckRkAoy2p73o="
                 alt=""
               />
               <p className="grid_text">Captain John Samuel</p>
-              <p className="grid_text_2">Trainer & Technical Expert</p>
+              <p className="grid_text_2">TRAINER & TECHNICAL EXPERT</p>
             </div>
             <div className="each_grid">
               <img
-                src="https://media.istockphoto.com/id/1368076322/photo/portrait-of-a-confident-businesswoman-in-an-office.jpg?b=1&s=170667a&w=0&k=20&c=sMc2g5vzwaZG72TNUsiaiB05Uwoa0FcipI_KSGpT8VA="
+                src="https://media.istockphoto.com/id/1300845620/vector/user-icon-flat-isolated-on-white-background-user-symbol-vector-illustration.jpg?s=612x612&w=0&k=20&c=yBeyba0hUkh14_jgv1OKqIH0CCSWU_4ckRkAoy2p73o="
                 alt=""
               />
               <p className="grid_text">Muthu Krishnan</p>
-              <p className="grid_text_2">Trainer & Technical Expert</p>
+              <p className="grid_text_2">TRAINER & TECHNICAL EXPERT</p>
             </div>
           </div>
         </div>

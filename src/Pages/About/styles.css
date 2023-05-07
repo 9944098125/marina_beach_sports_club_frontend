@@ -60,12 +60,13 @@
   font-weight: 700;
 }
 .grid_text {
-  color: #afa566;
-  font-size: 14px;
+  color: #000000;
+  font-size: 19px;
+  font-weight: 800;
 }
 .grid_text_2 {
   color: #565859;
-  font-size: 12px;
+  font-size: 15px;
 }
 .achievements_container {
   position: relative;
