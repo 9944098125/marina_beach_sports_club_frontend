@@ -465,8 +465,8 @@
     margin-left: 30px;
   }
   .pointer {
-    margin-bottom: -200px;
-    margin-left: -200px;
+    margin-bottom: -170px;
+    margin-left: -170px;
     z-index: 100;
   }
 }
@@ -642,8 +642,8 @@
     margin-left: 0px;
   }
   .pointer {
-    margin-bottom: -140px;
-    margin-left: -150px;
+    margin-bottom: -110px;
+    margin-left: -120px;
     z-index: 100;
   }
 }
@@ -653,8 +653,8 @@
     margin-left: -45px;
   }
   .pointer {
-    margin-bottom: -140px;
-    margin-left: -120px;
+    margin-bottom: -110px;
+    margin-left: -100px;
     z-index: 100;
   }
 }
