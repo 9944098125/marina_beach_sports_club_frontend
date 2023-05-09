@@ -11,7 +11,7 @@ function Founders() {
           <div className="grid_row">
             <div className="each_grid">
               <img
-                src="https://media.istockphoto.com/id/1300845620/vector/user-icon-flat-isolated-on-white-background-user-symbol-vector-illustration.jpg?s=612x612&w=0&k=20&c=yBeyba0hUkh14_jgv1OKqIH0CCSWU_4ckRkAoy2p73o="
+                src="https://res.cloudinary.com/dakda5ni3/image/upload/v1683632545/mvea5sbzh7ufkwsbcsur.jpg"
                 alt=""
               />
               <p className="grid_text">Ravikanth Reddy</p>
@@ -39,7 +39,7 @@ function Founders() {
                 alt=""
               />
               <p className="grid_text">G Dhinakaran</p>
-              <p className="grid_text_2">HEAD COACH MEN</p>
+              <p className="grid_text_2">TREASURER & HEAD COACH</p>
             </div>
             <div className="each_grid">
               <img
@@ -72,6 +72,14 @@ function Founders() {
               />
               <p className="grid_text">Muthu Krishnan</p>
               <p className="grid_text_2">TRAINER & TECHNICAL EXPERT</p>
+            </div>
+            <div className="each_grid">
+              <img
+                src="https://res.cloudinary.com/dakda5ni3/image/upload/v1683632387/scp4dwhnhjqorvuay3hv.jpg"
+                alt=""
+              />
+              <p className="grid_text">Jit Vinayak Arolkar</p>
+              <p className="grid_text_2">Chairman Organising Committee</p>
             </div>
           </div>
         </div>
