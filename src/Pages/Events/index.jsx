@@ -3,6 +3,7 @@ import React from "react";
 import "./styles.css";
 import TopPart from "./TopPart";
 import ImagesRow from "./ImagesRow";
+import CalendarImage from "./CalendarImage";
 
 export default function Events() {
   return (
@@ -16,6 +17,7 @@ export default function Events() {
             Volleyball World Beach Pro Tour 2023 is coming to Goa from October
             19th to 22nd, and you won't want to miss a minute of the action.
           </h3>
+          <CalendarImage />
           <p className="gallery_middle_text">
             The Volleyball Beach world Pro Tour is the annual global circuit
             showcasing the best athletes in the world competing for millions in
