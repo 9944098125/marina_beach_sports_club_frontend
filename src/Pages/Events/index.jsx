@@ -4,8 +4,17 @@ import "./styles.css";
 import TopPart from "./TopPart";
 import ImagesRow from "./ImagesRow";
 import CalendarImage from "./CalendarImage";
+import ImageGallery from "../Newsroom/ImageGallery";
 
 export default function Events() {
+  const imagesList = [
+    "https://assets1.cbsnewsstatic.com/hub/i/r/2012/03/27/47694688-a644-11e2-a3f0-029118418759/thumbnail/1200x630/47df22fc21ae3c6a0297ff0be900a572/misty_may_treanor_91377529.jpg",
+    "https://resources.cwg-qbr.pulselive.com/photo-resources/2022/02/11/5a80d7d9-7965-4dae-bd21-303d6879370f/5D4_9731.jpg?width=830",
+    "https://www.collegebatch.com/static/clg-gallery/sri-sairam-engineering-college-chennai-227157.jpg",
+    "https://t3.ftcdn.net/jpg/01/08/06/32/360_F_108063274_mPLBxLpgH03MEhfZ4dGFKqgkcqpiKStw.jpg",
+    "https://cdn.pixabay.com/photo/2021/03/21/21/59/beach-volleyball-6113241__340.jpg",
+    "https://www.educationworld.in/wp-content/uploads/2019/02/VolleyBall.jpg",
+  ];
   return (
     <React.Fragment>
       <div className="gallery_container">
@@ -37,6 +46,7 @@ export default function Events() {
             and colorful beach atmosphere that make our events so unique.
           </p>
           <h3 className="events_head">Volleyball World</h3>
+          <ImageGallery imagesList={imagesList} />
           <p className="gallery_middle_text">
             Volleyball World (VW) is a new partnership between the FIVB and CVC
             Capital which will drive innovation, growth and investment in

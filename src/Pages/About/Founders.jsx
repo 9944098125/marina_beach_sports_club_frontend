@@ -49,14 +49,14 @@ function Founders() {
               <p className="grid_text">Ramakrishnan</p>
               <p className="grid_text_2">HEAD COACH WOMEN</p>
             </div>
-            <div className="each_grid">
+            {/* <div className="each_grid">
               <img
                 src="https://res.cloudinary.com/dakda5ni3/image/upload/v1683719875/o06eahnqjzkiry4qgo6o.jpg"
                 alt=""
               />
               <p className="grid_text">K.T.Lakshmanan</p>
               <p className="grid_text_2">VOLLEYBALL / BEACH VOLLEYBALL COACH</p>
-            </div>
+            </div> */}
             <div className="each_grid">
               <img
                 src="https://media.istockphoto.com/id/1300845620/vector/user-icon-flat-isolated-on-white-background-user-symbol-vector-illustration.jpg?s=612x612&w=0&k=20&c=yBeyba0hUkh14_jgv1OKqIH0CCSWU_4ckRkAoy2p73o="

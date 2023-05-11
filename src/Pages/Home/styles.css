@@ -159,7 +159,6 @@
   justify-content: space-around;
   align-items: center;
   gap: 10px;
-  height: 90%;
   padding: 10px 25px;
   height: 80%;
   width: 80%;
@@ -172,23 +171,13 @@
   align-items: center;
   opacity: 0.6;
 }
-.each_video_item1 {
+.each_video_item {
   height: 300px;
   width: 33%;
-  background-size: cover;
-  background-image: url("../../Assets/Images/project-01.png");
 }
-.each_video_item2 {
-  height: 300px;
-  width: 33%;
-  background-size: cover;
-  background-image: url("../../Assets/Images/project-02.png");
-}
-.each_video_item3 {
-  height: 300px;
-  width: 33%;
-  background-size: cover;
-  background-image: url("../../Assets/Images/project-03.png");
+.each_video_item img {
+  height: 100%;
+  width: 100%;
 }
 .black_line {
   height: 50px;
@@ -352,13 +341,7 @@
     padding: 5px 10px;
     gap: 5px;
   }
-  .each_video_item1 {
-    height: 200px;
-  }
-  .each_video_item2 {
-    height: 200px;
-  }
-  .each_video_item3 {
+  .each_video_item {
     height: 200px;
   }
   .videos_grid_container {
@@ -441,13 +424,7 @@
   .upcoming_events_container {
     height: 50vh;
   }
-  .each_video_item1 {
-    height: 150px;
-  }
-  .each_video_item2 {
-    height: 150px;
-  }
-  .each_video_item3 {
+  .each_video_item {
     height: 150px;
   }
   .linear_gradient_container2 img {
@@ -602,14 +579,8 @@
   .intro_card_container {
     margin-bottom: 250px;
   }
-  .each_video_item1 {
-    height: 100px;
-  }
-  .each_video_item2 {
-    height: 100px;
-  }
-  .each_video_item3 {
-    height: 100px;
+  .each_video_item {
+    height: 80px;
   }
   .img_container {
     height: 250px !important;

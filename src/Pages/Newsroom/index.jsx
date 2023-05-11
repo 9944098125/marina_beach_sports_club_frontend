@@ -1,8 +1,17 @@
 import React from "react";
 
 import "./styles.css";
+import ImageGallery from "./ImageGallery";
 
 export default function Newsroom() {
+  const listOfImages = [
+    "https://i.ytimg.com/vi/6msgy8mIK9A/maxresdefault.jpg",
+    "https://upload.wikimedia.org/wikipedia/commons/8/82/2017_European_Beach_Volleyball_Championships.jpg",
+    "https://i.guim.co.uk/img/media/dbca9f8bd896ad064417153ff9f3aa8d7dfc1319/0_37_3588_2155/master/3588.jpg?width=1200&quality=85&auto=format&fit=max&s=44b9e70f43dcddc88201e856a5d87b8d",
+    "https://res.cloudinary.com/dakda5ni3/image/upload/v1683462324/gfcdgpyjgbgize0zgvhk.jpg",
+    "https://res.cloudinary.com/dakda5ni3/image/upload/v1683822525/cbhw13yuq0bhnjbie47v.jpg",
+    "https://res.cloudinary.com/dakda5ni3/image/upload/v1683822525/xjw2ta27b8nuxyqgmawd.jpg",
+  ];
   return (
     <React.Fragment>
       <div className="newsroom_container">
@@ -45,6 +54,7 @@ export default function Newsroom() {
           best performances in front of the passionate fans.”
         </p>
         <h4 className="newsroom_text">BEACH VOLLEYBALL SUMMER CAMP 2023</h4>
+        <ImageGallery imagesList={listOfImages} />
         <p className="newsroom_small_text">
           We are thrilled to announce the successful completion of our Summer
           Beach Volleyball Coaching Camp 2023, organized for under 17 category
