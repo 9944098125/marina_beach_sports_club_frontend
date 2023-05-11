@@ -662,10 +662,11 @@ span.carousel-control-next-icon {
   border: 1px solid white;
   padding: 15px 15px;
   border-radius: 50%;
-  z-index: 199;
+  z-index: 999999;
 }
 span.carousel-control-prev-icon {
   border: 1px solid white;
   padding: 15px 15px;
   border-radius: 50%;
+  z-index: 999;
 }

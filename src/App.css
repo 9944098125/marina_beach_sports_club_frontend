@@ -9,7 +9,7 @@ body::-webkit-scrollbar {
 
 :root {
   --primary-color: #003a77;
-  --secondary-color: #2d3c57;
+  --secondary-color: #666a6c;
   --dark-color: #00158c;
   --light-color: #608bb3;
   --light-grey-color: #928d8d;
@@ -54,4 +54,40 @@ body::-webkit-scrollbar {
   to {
     transform: translateX(10px);
   }
+}
+.logosInEvents {
+  animation-name: moveUpDown;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-duration: 2s;
+}
+@keyframes moveUpDown {
+  from {
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateY(50px);
+  }
+}
+
+.logosInEvents2 {
+  animation-name: moveUpDown2;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-duration: 2s;
+}
+@keyframes moveUpDown2 {
+  from {
+    transform: translateY(50px);
+  }
+  to {
+    transform: translateY(0px);
+  }
+}
+.invalid-feedback {
+  color: rgb(212, 3, 3);
+  font-size: 14px;
+}
+.is-invalid {
+  border: 2px solid rgb(212, 1, 1);
 }
