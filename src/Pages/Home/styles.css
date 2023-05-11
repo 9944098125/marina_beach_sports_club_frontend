@@ -276,9 +276,8 @@
   flex-direction: column;
 }
 .miramir_img {
-  z-index: 99;
   height: 400px !important;
-  width: 800px !important;
+  width: 700px !important;
   margin-left: -180px;
 }
 .yellow_img1,
@@ -296,7 +295,7 @@
 }
 .pointer {
   margin-bottom: -270px;
-  margin-left: -280px;
+  margin-left: -220px;
   z-index: 100;
 }
 .yellow_img1a,
@@ -315,7 +314,7 @@
   z-index: 99;
 }
 .miramir_img3 {
-  width: 700px !important;
+  width: 500px !important;
   height: 350px !important;
   z-index: 99;
 }
@@ -633,10 +632,6 @@
     font-size: 5px;
   }
   .miramir_img {
-    width: 350px !important;
-    height: 200px !important;
-  }
-  .miramir_img {
     height: 170px !important;
     width: 350px !important;
     margin-left: 0px;
@@ -662,11 +657,10 @@ span.carousel-control-next-icon {
   border: 1px solid white;
   padding: 15px 15px;
   border-radius: 50%;
-  z-index: 999999;
+  z-index: 99999999999 !important;
 }
 span.carousel-control-prev-icon {
   border: 1px solid white;
   padding: 15px 15px;
   border-radius: 50%;
-  z-index: 999;
 }
